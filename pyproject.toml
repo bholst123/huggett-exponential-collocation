@@ -1,0 +1,15 @@
+[project]
+name = "huggett-exponential-collocation"
+version = "0.1.0"
+description = "Structure-preserving exponential collocation for continuous-time heterogeneous-agent equilibrium transitions"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+]
+
+[tool.setuptools]
+py-modules = ["huggett_nesvm_core", "huggett_exponential_collocation"]
+package-dir = {"" = "src"}
